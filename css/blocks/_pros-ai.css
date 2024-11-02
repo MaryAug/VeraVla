@@ -1,0 +1,66 @@
+.pros-ai {
+  /* padding: 115px 0 110px; */
+  background: linear-gradient(to right, #0c373d 0%, #000304 100%);
+  /* position: relative; */
+}
+
+/* .pros-ai::after {
+  position: absolute;
+  content: url("/img/pros-ai-back.png");
+  top: 140px;
+  z-index: 1;
+  width: 100%;
+} */
+
+.pros-ai__title {
+  margin-bottom: 65px;
+}
+.pros-ai__list {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.pros-ai__item {
+  background: linear-gradient(
+    to right,
+    rgba(31, 63, 77, 0.54) 0%,
+    rgba(31, 75, 94, 0) 100%
+  );
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  position: relative;
+  width: 695px;
+  transition: 0.3s ease-out;
+}
+
+.pros-ai__item:hover {
+  background: linear-gradient(
+    to right,
+    rgba(49, 86, 102, 0.54) 0%,
+    rgba(31, 75, 94, 0) 100%
+  );
+}
+
+.pros-ai__item::before {
+  position: absolute;
+  display: block;
+  content: url("/img/list-item.svg");
+  width: 33px;
+  height: 33px;
+  left: 25px;
+  top: 15px;
+}
+
+.pros-ai__item::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 41px;
+  height: 10px;
+  background: rgba(3, 225, 255, 0.46);
+  filter: blur(11px);
+  top: 26px;
+  left: 70px;
+}

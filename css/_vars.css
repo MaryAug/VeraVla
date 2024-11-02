@@ -1,0 +1,15 @@
+:root {
+  --font-family: "Avenir Next Cyr", sans-serif;
+
+  --color-blue: #4abcec;
+  --color-cyan: #00e0ff;
+  --color-tiffany: #08b1b9;
+  --color-grey: #747d81;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --container-width: 1200px;
+  --container-offset: 15px;
+
+  --gap: 20px;
+}

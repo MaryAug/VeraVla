@@ -1,0 +1,45 @@
+.author {
+  /* padding: 100px 0; */
+  background: linear-gradient(to left, #022335 0%, #043a41 100%);
+}
+.container {
+  position: relative;
+}
+.author_title {
+  margin-bottom: 50px;
+}
+.author__info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 490px;
+}
+
+.author__info::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 41px;
+  height: 10px;
+  background: rgba(3, 225, 255, 0.46);
+  filter: blur(11px);
+  top: 7px;
+  left: -12px;
+}
+.author__text {
+}
+.author__about {
+  position: absolute;
+  content: "";
+  left: 845px;
+  top: 435px;
+}
+.author__name {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-cyan);
+}
+.author__post {
+  font-size: 13px;
+}

@@ -1,0 +1,15 @@
+@import url("_vars.css");
+@import url("_settings.css");
+@import url("_fonts.css");
+@import url("_keyframes.css");
+
+@import url("blocks/_header.css");
+@import url("blocks/_benefits.css");
+@import url("blocks/_pros-ai.css");
+@import url("blocks/_important-info.css");
+@import url("blocks/_pros-course.css");
+@import url("blocks/_about-course.css");
+@import url("blocks/_author.css");
+@import url("blocks/_notices.css");
+@import url("blocks/_vacancy.css");
+@import url("blocks/_footer.css");

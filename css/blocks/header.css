@@ -1,7 +1,6 @@
 .header {
   background-color: var(--color-black);
-  background-image: url(../img/banner-back.png);
-  background-image: url("../img/banner-back.png");
+  background-image: url("../../img/banner-back.png");
   background-position: top center;
   position: relative;
   /* min-height: 177vh; */

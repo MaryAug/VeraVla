@@ -17,7 +17,6 @@
 .about-course__head {
   position: relative;
   padding: 17px 15px 17px 45px;
-  /* background: linear-gradient(to left, #073344 0%, #08262b 100%); */
   background: linear-gradient(-8deg, #174f65bd 0%, #112a2e 100%);
   cursor: pointer;
   font-size: 16px;
@@ -35,7 +34,7 @@
   position: absolute;
   right: 15px;
   top: 10px;
-  content: url(/img/arrow.svg);
+  content: url(../../img/arrow.svg);
   padding: 6px 10px;
   color: var(--color-blue);
   background: linear-gradient(180deg, #03424c 0%, #043f49 100%) padding-box,

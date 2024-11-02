@@ -1,5 +1,4 @@
 .pros-ai {
-  /* padding: 115px 0 110px; */
   background: linear-gradient(to right, #0c373d 0%, #000304 100%);
   /* position: relative; */
 }
@@ -46,7 +45,7 @@
 .pros-ai__item::before {
   position: absolute;
   display: block;
-  content: url("/img/list-item.svg");
+  content: url("../../img/list-item.svg");
   width: 33px;
   height: 33px;
   left: 25px;

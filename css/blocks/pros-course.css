@@ -1,5 +1,4 @@
 .pros-course {
-  /* padding: 105px 0 115px; */
   background: linear-gradient(to left, #022335 0%, #043a41 100%);
 }
 .pros-course__title {
@@ -23,7 +22,7 @@
 .pros-course__item::before {
   position: absolute;
   display: block;
-  content: url("/img/course-item.svg");
+  content: url("../../img/course-item.svg");
   width: 36px;
   height: 36px;
   top: 0;
